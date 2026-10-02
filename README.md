@@ -1,49 +1,56 @@
 <div align="center">
 
-# 🧠 Enterprise Knowledge Copilot
-### *Next-Gen RAG-Based AI Assistant & Intelligent Context Engine*
+# ⬛ ENTERPRISE KNOWLEDGE COPILOT ⬛
+### • Next-Gen RAG System & Context-Aware AI Engine •
 
 <br>
 
-[![Live Demo](https://img.shields.io/badge/🚀_Explore_Live_App-copilot--xi--lyart.vercel.app-blueviolet?style=for-the-badge)](https://copilot-xi-lyart.vercel.app)
+[![Live Demo](https://img.shields.io/badge/🟢_LIVE_DEMO-copilot--xi--lyart.vercel.app-success?style=for-the-badge)](https://copilot-xi-lyart.vercel.app)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)]()
 [![LangChain](https://img.shields.io/badge/AI-LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)]()
-[![ChromaDB](https://img.shields.io/badge/VectorDB-ChromaDB-orange?style=for-the-badge)]()
+[![Next.js](https://img.shields.io/badge/Frontend-Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)]()
 
 </div>
 
 ---
 
-## ⚡ System Architecture & Overview
-**Enterprise Knowledge Copilot** ek production-ready Retrieval-Augmented Generation (RAG) system hai, jo internal PDFs ko ingest karke secure aur context-aware querying perform karta hai[cite: 9]. Isme role-based access control (Admin/Viewer) ka support diya gaya hai[cite: 9], jo cloud deployment par maximum stability ensure karta hai[cite: 9].
+## 🔷 SYSTEM OVERVIEW
+> **Enterprise Knowledge Copilot** is a production-ready Retrieval-Augmented Generation (RAG) architecture engineered to seamlessly ingest internal PDF documents, perform smart chunking, and execute context-aware semantic queries[cite: 9]. Designed with robust role-based access control (Admin/Viewer) to ensure maximum stability and enterprise security in cloud environments.
 
 ---
 
-## 🛠️ Core Engineering Highlights
+## 🔶 CORE ARCHITECTURE & HIGHLIGHTS
 
-*   📄 **Advanced Ingestion Pipeline:** Custom implementation of PDF parsing, smart chunking, and high-precision Gemini embeddings[cite: 9].
-*   🗄️ **Optimized Vector Management:** Utilized `chromadb.EphemeralClient` locally to bypass strict cloud storage limits and guarantee stable Render deployments[cite: 9].
-*   🔒 **Secure RBAC Security:** Strict role-based routing and authorization mechanisms for enterprise-grade data protection[cite: 9].
-*   ⚡ **High-Speed Workflow:** Seamless full-stack integration built to handle intensive query loads with lightning-fast response times.
+* ◼️ **Intelligent Ingestion Pipeline:** Custom-built parsing workflows leveraging high-precision Google Gemini embeddings for deep document analysis.
+* ◼️ **Optimized Vector Storage:** Deployed `chromadb.EphemeralClient` states to bypass traditional cloud storage restrictions and guarantee rock-solid Render stability.
+* ◼️ **Enterprise Access Control:** Strict role-based routing (RBAC) ensuring granular permission boundaries and protected endpoints.
+* ◼️ **Performance-First Design:** Optimized full-stack synchronization engineered for low latency and high concurrent query loads.
 
 ---
 
-## 📊 Tech Stack Breakdown
+## 📊 TECHNICAL STACK MATRIX
 
-| Layer / Domain | Technologies & Tools |
+| 🟢 Layer / Domain | 🔵 Core Technologies & Frameworks |
 | :--- | :--- |
-| **AI & Orchestration** | LangChain, Google Gemini API, Embeddings[cite: 9] |
-| **Backend Core** | FastAPI, Python, JWT Authentication[cite: 9] |
-| **Vector Database** | ChromaDB (In-Memory / Ephemeral Client)[cite: 9] |
-| **Frontend / UI** | Next.js, Modern CSS Components[cite: 9] |
-| **Cloud & Deployment** | Vercel (Frontend), Render (Backend)[cite: 9] |
+| **◯ AI & Orchestration** | LangChain, Google Gemini API, Custom Embeddings|
+| **◯ Backend Core** | FastAPI, Python, JWT Authentication |
+| **◯ Vector Database** | ChromaDB (`EphemeralClient` Configuration) |
+| **◯ Frontend Interface** | Next.js, Modern Responsive Components |
+| **◯ Deployment & Hosting** | Vercel (Client), Render (Server)|
 
 ---
 
-## 🚀 Quick Setup & Installation
+## 🚀 LOCAL INSTALLATION AND SETUP
 
-Apne local machine par isko run karne ke liye ye steps follow karein:
+To boot this repository locally on your development machine, execute the following commands:
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/shubham197369/enterprise-copilot.git](https://github.com/shubham197369/enterprise-copilot.git)
+```bash
+# 1. Clone the repository
+git clone ; https://github.com/shubham197369/enterprise-copilot.git
+
+# 2. Navigate to the workspace
+cd enterprise-copilot
+
+# 3. Install dependencies and run
+npm install
+npm run dev
